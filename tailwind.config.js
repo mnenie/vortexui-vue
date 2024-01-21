@@ -7,7 +7,11 @@ export default {
   ],
   darkMode: ["class"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'black-main': '#24292F'
+      }
+    },
   },
   variants: {
     extend: {},
