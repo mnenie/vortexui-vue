@@ -17,5 +17,5 @@ export const DefaultLabel: StoryFn<typeof Label> = (args) => ({
   setup() {
     return { args };
   },
-  template: '<Label :class="args.labelClass" v-bind="args">Label of vortexui</Label>'
+  template: '<Label v-bind="args">Label of vortexui</Label>'
 });

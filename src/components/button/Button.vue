@@ -39,7 +39,7 @@ const size = computed(() => {
 
 <template>
   <button
-    class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black-main focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-black-main dark:focus-visible:ring-gray-200 relative overflow-hidden"
+    class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 relative overflow-hidden"
     :disabled="props.disabled" :class="[variant, size, props.class]">
     <slot />
   </button>
