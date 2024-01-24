@@ -20,5 +20,5 @@ export const SpinnerLarge: StoryFn<typeof Spinner> = (args) => ({
   setup() {
     return { args };
   },
-  template: '<Spinner class="w-24 h-24" v-bind="args" />'
+  template: '<Spinner class="w-28 h-28" v-bind="args" />'
 });
