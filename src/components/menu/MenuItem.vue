@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HTMLAttributes, ref } from 'vue';
+import { HTMLAttributes } from 'vue';
 
 const props = defineProps<{
   class?: HTMLAttributes["class"]
