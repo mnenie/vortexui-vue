@@ -27,7 +27,7 @@ export const TextAvatar: StoryFn<typeof Avatar> = (args) => ({
   template: `
   <Avatar v-bind="args">
     <AvatarContent v-bind="args">
-      CN
+      AP
     </AvatarContent>
   </Avatar>
 `

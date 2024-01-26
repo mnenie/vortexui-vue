@@ -12,6 +12,7 @@ import CardTitle from './card/CardTitle.vue'
 import CardDescription from './card/CardDescription.vue'
 import Avatar from './avatar/Avatar.vue'
 import AvatarContent from './avatar/AvatarContent.vue'
+import Skeleton from './skeleton/Skeleton.vue'
 
 export {
   Button,
@@ -27,5 +28,6 @@ export {
   CardHeader,
   CardMainContent,
   Avatar, 
-  AvatarContent
+  AvatarContent,
+  Skeleton
 }

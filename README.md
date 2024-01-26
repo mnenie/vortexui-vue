@@ -2,6 +2,21 @@
 
 Vortex is a set of open source UI Components for Vue3 + TailwindCSS.
 
+## Some Examples
+
+__~button:__
+<img src="./public/imgs/buttons.png" />
+__~card:__
+<img src="./public/imgs/card.png" />
+__~checkbox:__
+<img src="./public/imgs/checkbox.png" />
+__~menu:__
+<img src="./public/imgs/menu.png" />
+__~avatar:__
+<img src="./public/imgs/avatar.png" />
+
+... and more
+
 ## Download
 
 VortexUI is available at [npm]().
